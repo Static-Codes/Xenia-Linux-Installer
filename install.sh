@@ -121,4 +121,4 @@ show_command "xed ~/.bash_aliases # Opens your system's bash alias file."
 show_info "Insert the following line:"
 show_info "alias xenia=\"$BINARY_INSTALL_PATH\" # Creates the alias to run Xenia easier."
 
-show_info ". ~/.bash_aliases # Refreshes the aliases"
+show_command ". ~/.bash_aliases # Refreshes the aliases"
